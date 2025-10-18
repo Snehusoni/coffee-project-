@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coffee Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar-->
+    <header>
+      <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">☕Coffee</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section-->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Best coffee</h2>
+            <h3 class="subtitle">
+              Make your day great with our special coffee!
+            </h3>
+            <p class="description">
+              Welcome to your coffee paradise, where every bean tells a story
+              and every cup spark joy.
+            </p>
+
+            <div class="buttons">
+              <a href="#" class="button order-now">Order NOW</a>
+              <a href="#" class="button Contact-us">Contact-Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="logo1.png" alt="Hero" class="hero-image" />
+          </div>
+        </div>
+      </section>
+      <!--About section-->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="logo 2.jpg" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">
+              At Nestlé Professional Solutions, we are committed to creating a
+              meaningful and positive impact across every facet of our business
+              operations. Our dedication to sustainability and environmental
+              stewardship is at the core of our mission, and we invite you to
+              join us in making a difference with every cup you serve. Join us
+              in our mission to create a positive impact through every beverage
+              experience and help us make a difference for our planet, one cup
+              at a time.
+            </p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-x-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu section-->
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">our menu</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="logo3.png" alt="coffee" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Hot Beverages</h3>
+                <p class="text">Make your day great with our special coffee</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="Dessert.png" alt="Dessert" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Dessert</h3>
+                <p class="text">
+                  Satiate your palate and take you on a culinary treat
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="Rose-png.png" alt=" Cold coffee" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Cold Beverages</h3>
+                <p class="text">
+                  Creamy and Frothy cold coffee to make you cool.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="berry.png" alt="Refreshment" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Refreshment</h3>
+                <p class="text">
+                  Fruit and ice refershing drink to make feel refresh.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="mealcombo.png" alt="Special combo" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Special combo</h3>
+                <p class="text">Your favorite and drinking combations.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="burger.png"
+                alt="Burger & French Fries"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">Burger & French Fries</h3>
+                <p class="text">
+                  Quick bites to satisfy your small size hunger.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Testimonials section-->
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+          <div class="slider-continer swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonials swiper-slide">
+                  <img src="person1.jpg" alt="User image" class="user-image" />
+                  <h3 class="name">Sarah Johnson</h3>
+                  <i class="feedback"
+                    >"Loved the French roast. Perfectly balanced and rich. Will
+                    order again!"</i
+                  >
+                </li>
+                <li class="testimonials swiper-slide">
+                  <img src="person2.jpg" alt="User image" class="user-image" />
+                  <h3 class="name">Emily Harris</h3>
+                  <i class="feedback"
+                    >"Excellent quailty! Fresh beans and quick delivery.Highly recommed."</i
+                  >
+                </li>
+                <li class="testimonials swiper-slide">
+                  <img src="person3.jpg" alt="User image" class="user-image" />
+                  <h3 class="name">Vidushi Agarwal</h3>
+                  <i class="feedback">"I loved the food here, everything was very fresh and delicious. I would highly recommend this."</i>
+                </li>
+                <li class="testimonials swiper-slide">
+                  <img src="person4.jpg" alt="User image" class="user-image" />
+                  <h3 class="name">James Wilson</h3>
+                  <i class="feedback"
+                    >"Great espresso blend! Smooth and bold flavor .Fast shipping "</i
+                  >
+                </li>
+                <li class="testimonials swiper-slide">
+                  <img src="person5.jpg" alt="User image" class="user-image" />
+                  <h3 class="name">Anthony Thompson</h3>
+                  <i class="feedback"
+                    >"Best decaf I've tried! Smooth and flavorful. Arrived promptly."</i
+                  >
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slider-button swiper-button-prev"></div>
+              <div class="swiper-slider-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--gallery section-->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="food1muf.jpg" alt="Gallery" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="food2.jpg" alt="Gallery" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="food3.jpg" alt="Gallery" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="air.jpg" alt="Gallery" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="Milk.jpg" alt="Gallery" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="Cup.jpg" alt="Gallery" class="gallery-image" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Contact  section-->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>
+                B-280, Sanjay Vihar, shikshak colony, nagpur Road,
+              </p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-envelope"></i>
+              <p>dhawresnehu@gmail.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(+91) 7935467890, 9932678809</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Mondy - Friday: 9:00 AM - 5:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Saturday: 10:00 AM - 3:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sunday: Closed</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>https://snehusoni.github.io/Portfolio-website/</p>
+            </li>
+          </ul>
+
+          <form action="#" class="contact-form">
+            <input
+              type="text"
+              placeholder="Your name"
+              class="form-input"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your email"
+              class="form-input"
+              required
+            />
+            <textarea
+              placeholder="Your message"
+              class="form-input"
+              required
+            ></textarea>
+            <button class="submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <div class="section-content">
+        <p class="copyright-text">@ 2025 Coffee shop by snehu</p>
+
+        <div class="social-link-list">
+          <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-x-twitter"></i></a>
+        </div>
+        <p class="policy-text">
+          <a href="#" class="policy-link">Privacy policy</a>
+          <span class="separator"></span>
+          <a href="#" class="policy-link">Refund policy</a>
+
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
